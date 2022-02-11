@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.carsouel {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner{
+  white-space: nowrap;
+  transition: all 0.6s ease;
+}
+
+.carsouel-item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: green;
+  color: wheat;
+}
+
+.button{
+  height: 100px;
+  width: 40px;
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.imagecontainer{
+  background-color: gainsboro;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.full {
+  transition: opacity 400ms ease 0ms;
+}
+
+img,svg{
+  cursor:pointer
+}
